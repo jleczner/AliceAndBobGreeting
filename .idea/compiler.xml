@@ -22,12 +22,13 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
+        <module name="AliceAndBobGreeting" />
         <module name="LabCD11" />
         <module name="SumOfTheNumbers" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="SumOfTheNumbers" target="1.8" />
+      <module name="AliceAndBobGreeting" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>
