@@ -23,14 +23,15 @@ public class Greeting {
     }
     public String greetingCheck(String name) {
         String greetingString = "";
-        switch (name) {
-            case "Bob":
+        String nameCaps = name.toUpperCase(); // to accept any capitalization format
+        switch (nameCaps) {
+            case "BOB":
                 greetingString = "Hey, Bob.";
                 break;
-            case "Alice":
+            case "ALICE":
                 greetingString = "Hey, Alice.";
                 break;
-            default:
+            default: // do nothing
                 break;
         }
         return greetingString;
